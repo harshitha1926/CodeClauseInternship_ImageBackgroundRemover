@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to bottom right, #2f3c7e, #3e70ce);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  margin-top: 56px;
+  font-family: "Labrada", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.button {
+  background-color: #fbeaeb;
+  color: #2f3c7e;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #2f3c7e;
+}
